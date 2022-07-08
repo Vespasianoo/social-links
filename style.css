@@ -8,6 +8,8 @@ a {
   text-decoration: none;
 }
 
+/* ------------------- ESTILO PADRÃO DA PÁGINA - Começo ----------------*/
+
 html {
   --bg-color: #edf2ff;
   --text-color: #00082f;
@@ -15,23 +17,45 @@ html {
   --primary-color-dark: #364fc7;
 }
 
-body {
+
+/* ------------------- ESTILO PADRÃO DA PÁGINA - Final ----------------*/
+body { 
   background: var(--bg-color);
   color: var(--text-color);
   font-family: 'Roboto', sans-serif;
 }
 
+
+/* ------------------- ESTILO DARK-BLUE DA PÁGINA - Começo ----------------*/
 body.dark-blue {
   --bg-color: #00082f;
   --text-color: #ffffff;
 }
+/* ------------------- ESTILO DARK-BLUE DA PÁGINA - Final ----------------*/
+
+/* ------------------- ESTILO PINK DA PÁGINA - Começo ----------------*/
 
 body.pink {
-  --bg-color: #fff0f6;
-  --text-color: #1f000b;
-  --primary-color: #d6336c;
-  --primary-color-dark: #a61e4d;
+
+  
+  --bg-color: hsl(336, 100%, 97%);
+  --text-color: hsl(339, 100%, 6%);
+  --primary-color: hsl(339, 67%, 52%);
+  --primary-color-dark: hsl(339, 69%, 38%);
 }
+
+/* ------------------- ESTILO PINK DA PÁGINA - Final ----------------*/
+
+/* ------------------- ESTILO DARK-PINK DA PÁGINA - Começo ----------------*/
+
+body.dark-pink {
+  --bg-color: #1F000B;
+  --text-color: #FFF0F6;
+  --primary-color: #D6336C;
+  --primary-color-dark: #A61E4D;
+}
+
+/* ------------------- ESTILO DARK-PINK DA PÁGINA - Começo ----------------*/
 .container {
   text-align: center;
   width: 300px;
