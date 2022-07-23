@@ -18,12 +18,12 @@ html {
 }
 
 
-/* ------------------- ESTILO PADRÃO DA PÁGINA - Final ----------------*/
 body { 
   background: var(--bg-color);
   color: var(--text-color);
   font-family: 'Roboto', sans-serif;
 }
+/* ------------------- ESTILO PADRÃO DA PÁGINA - Final ----------------*/
 
 
 /* ------------------- ESTILO DARK-BLUE DA PÁGINA - Começo ----------------*/
@@ -33,34 +33,42 @@ body.dark-blue {
 }
 /* ------------------- ESTILO DARK-BLUE DA PÁGINA - Final ----------------*/
 
+
 /* ------------------- ESTILO PINK DA PÁGINA - Começo ----------------*/
-
 body.pink {
-
-  
   --bg-color: hsl(336, 100%, 97%);
   --text-color: hsl(339, 100%, 6%);
   --primary-color: hsl(339, 67%, 52%);
   --primary-color-dark: hsl(339, 69%, 38%);
 }
-
 /* ------------------- ESTILO PINK DA PÁGINA - Final ----------------*/
 
-/* ------------------- ESTILO DARK-PINK DA PÁGINA - Começo ----------------*/
 
+
+/* ------------------- ESTILO DARK-PINK DA PÁGINA - Começo ----------------*/
 body.dark-pink {
   --bg-color: #1F000B;
   --text-color: #FFF0F6;
   --primary-color: #D6336C;
   --primary-color-dark: #A61E4D;
 }
+/* ------------------- ESTILO DARK-PINK DA PÁGINA - final ----------------*/
 
-/* ------------------- ESTILO DARK-PINK DA PÁGINA - Começo ----------------*/
+/* ------------------- ESTILO PURPLE DA PÁGINA - Começo ----------------*/
+body.purple {
+  --bg-color: #ebf0ff;
+  --text-color: #17002e;
+  --primary-color: #4d0085;
+  --primary-color-dark: #2a0047;
+}
+/* ------------------- ESTILO PURPLE DA PÁGINA - Final ----------------*/
 .container {
   text-align: center;
   width: 300px;
   margin: 60px auto;
 }
+
+
 
 img {
   width: 100%;
