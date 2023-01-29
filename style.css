@@ -103,15 +103,16 @@ ul {
 
 ul li a {
   display: flex;
-  height: 53px;
-
+  gap: 6px;
   align-items: center;
   justify-content: center;
-
+  
   background: var(--primary-color);
+  padding: 16px 80px;
   color: #fff;
 
   text-transform: uppercase;
+  font-weight: 700;
   font-size: 14px;
   margin-bottom: 16px;
 
