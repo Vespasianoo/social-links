@@ -124,6 +124,10 @@ ul li a:hover {
   background: var(--primary-color-dark);
 }
 
+ul li a ion-icon {
+  font-size: 18px;
+}
+
 footer {
   font-weight: 500;
   font-size: 12px;
