@@ -17,14 +17,12 @@ html {
   --primary-color-dark: #364fc7;
 }
 
-
-body { 
+body {
   background: var(--bg-color);
   color: var(--text-color);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 /* ------------------- ESTILO PADRÃO DA PÁGINA - Final ----------------*/
-
 
 /* ------------------- ESTILO DARK-BLUE DA PÁGINA - Começo ----------------*/
 body.dark-blue {
@@ -32,7 +30,6 @@ body.dark-blue {
   --text-color: #ffffff;
 }
 /* ------------------- ESTILO DARK-BLUE DA PÁGINA - Final ----------------*/
-
 
 /* ------------------- ESTILO PINK DA PÁGINA - Começo ----------------*/
 body.pink {
@@ -43,14 +40,12 @@ body.pink {
 }
 /* ------------------- ESTILO PINK DA PÁGINA - Final ----------------*/
 
-
-
 /* ------------------- ESTILO DARK-PINK DA PÁGINA - Começo ----------------*/
 body.dark-pink {
-  --bg-color: #1F000B;
-  --text-color: #FFF0F6;
-  --primary-color: #D6336C;
-  --primary-color-dark: #A61E4D;
+  --bg-color: #1f000b;
+  --text-color: #fff0f6;
+  --primary-color: #d6336c;
+  --primary-color-dark: #a61e4d;
 }
 /* ------------------- ESTILO DARK-PINK DA PÁGINA - final ----------------*/
 
@@ -67,8 +62,6 @@ body.purple {
   width: 300px;
   margin: 60px auto;
 }
-
-
 
 img {
   width: 100%;
@@ -90,7 +83,7 @@ h1 {
   margin-bottom: 8px;
 }
 .username {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 400;
   opacity: 0.8;
   font-size: 18px;
@@ -106,7 +99,7 @@ ul li a {
   gap: 6px;
   align-items: center;
   justify-content: center;
-  
+
   background: var(--primary-color);
   padding: 16px 80px;
   color: #fff;
